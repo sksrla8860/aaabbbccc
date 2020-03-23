@@ -1,0 +1,79 @@
+html, body{}
+*{box-sizing: border-box; letter-spacing: -1px;}
+
+/*  header  */
+header{width: 100%; background-color: #0bb3e0; padding-top: 60px; }
+header > div{width: 1080px; height: 60px; margin: 0 auto; }
+header > div > h1{width: 180px; height: 100%; background-color: #fff; }
+header > div > h1 > a{width: 100%; height: 100%; display: block; }
+/*header > div > h1 > a > span{width: 0; height: 0; display: block; overflow: hidden; }*/
+header > div > ul{text-align: right; }
+header > div > ul > li{display: inline-block; border-radius: 30px; margin: 0 5px; padding: 5px 10px; }
+header > div > ul > li > a{font-size: 1.2rem; color: #fff; }
+header > div > ul > li:hover{background-color: #f8ec26;}
+header > div > ul > li:hover > a{color: #333; }
+
+/*  main  */
+.mainContents{}
+section{width: 100%; padding: 1% 0; }
+.formBox{width: 100%; margin: 0 auto; padding: 160px 0 320px; background-color: #0bb3e0; }
+.formBox > h2{font-size: 40px; text-align: center; color: #fff; font-weight: bold; margin-bottom: 60px; }
+.formBox > form{width: 1080px; margin: 0 auto; }
+.formBox > form > fieldset{text-align: center; }
+.formBox > form > fieldset > input{width: 680px; height: 70px; background-color: #fff; padding: 5px; display: inline-block; vertical-align: middle; font-size: 24px; border: 0; }
+.formBox > form > fieldset > button{width: 70px; height: 70px; display: inline-block; vertical-align: middle; background-color: #fff; border: 0; position: relative; }
+.formBox > form > fieldset > button > span{color: #000;position: absolute;margin-top: 2px;margin-left: 3px;width: 20px;height: 20px;border: solid 3px currentColor;border-radius: 100%;-webkit-transform: rotate(-45deg);transform: rotate(-45deg); top: 20px; left: 20px; }
+.formBox > form > fieldset > button > span:before {content: '';position: absolute;top: 17px;left: 7px;height: 10px;width: 3px;background-color: currentColor;}
+
+.iconBox{}
+.iconBox > ul{width: 100%; max-width: 1000px; margin: 0 auto; border-radius: 50px; background-color: #fff; overflow: hidden; margin-top: -210px; }
+.iconBox > ul > li{width: 16.666666%; margin: 5% 0; }
+.iconBox > ul > li > a{width: 100%; display: block; height: 100%; text-align: center; }
+.iconBox > ul > li > a > div{width: 100%; height: 60px; }
+.iconBox > ul > li > a > div > img{display: block; margin: 0 auto; }
+.iconBox > ul > li > a > p{font-size: 16px; }
+
+.infoBox{background-color: #e5e5e5; }
+.infoBox > h3{font-size: 28px; text-align: center; font-weight: bold; margin: 5% auto;}
+.infoBox > ul{width: 1080px; margin: 0 auto; }
+.infoBox > ul > li{width: 32%; height: 480px; background-color: #fff; margin: 0 .666666%; }
+
+.serviceBox{}
+.serviceBox > article{}
+.serviceBox > article > h4{}
+.serviceBox > article > h4 > div{}
+.serviceBox > article > h4 > a{}
+
+.tipBox{width: 100%; }
+.tipBox > h3{font-size: 32px; text-align: center; font-weight: bold; margin-bottom: 20px; }
+.tipBox > ul{width: 1080px; margin: 0 auto; }
+.tipBox > ul > li{width: 25%; height: 0; padding-bottom: 25%; position: relative; }
+.tipBox > ul > li > a{width: 95%; height: 95%; position: absolute; display: block; background-color: #333; }
+.tipBox > ul > li > a > h5{width: 100%; height: 100%; color: #fff; font-size: 36px; font-weight: bold; text-align: center; line-height: 1.5; padding-top: 70px; display: block; vertical-align: middle; align-items: center; }
+
+/*  footer  */
+footer{background-color: #444; width: 100%;  }
+footer > div{width: 100%; }
+footer > .footer_01{background-color: #fff; border-top: 1px solid #d5d5d5; }
+footer > .footer_02{}
+footer > .footer_02 > div{padding: 5% 0; }
+footer > div > ul{width: 1080px; height: 60px;  margin: 0 auto; }
+footer > div > ul > li{height: 60px; margin: 0 35px; }
+footer > div > ul > li:first-child{margin-left: 0; }
+footer > div > ul > li > a{font-size: 18px; line-height: 60px; color: #333; font-weight: bold; }
+footer > div > div{width: 1080px; margin: 0 auto; }
+footer > div{color: #ddd; font-size: 16px; }
+footer > div button{}
+footer > div h5{font-size: 34px; }
+footer > div p{}
+footer > h6{width: 100%; height: 65px; line-height: 65px; font-size: 14px; font-weight: normal; text-align: center; color: #ddd; border-top: 1px solid #353535; }
+
+@media all and (min-width: 480px){
+	
+}
+@media all and (min-width: 768px){
+	
+}
+@media all and (min-width: 1080px){
+	
+}
