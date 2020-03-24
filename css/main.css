@@ -1,5 +1,5 @@
 html, body{}
-*{box-sizing: border-box; letter-spacing: -1px;}
+*{box-sizing: border-box; letter-spacing: -1px; word-break: keep-all; }
 
 /*  header  */
 header{width: 100%; background-color: #0bb3e0; padding-top: 60px; }
@@ -38,11 +38,37 @@ section{width: 100%; padding: 1% 0; }
 .infoBox > ul{width: 1080px; margin: 0 auto; }
 .infoBox > ul > li{width: 32%; height: 480px; background-color: #fff; margin: 0 .666666%; }
 
-.serviceBox{}
+.serviceBox{width: 1080px; margin: 0 auto;}
 .serviceBox > article{}
-.serviceBox > article > h4{}
-.serviceBox > article > h4 > div{}
-.serviceBox > article > h4 > a{}
+.serviceBox > article > h3{font-size: 24px; color: #333; margin-bottom: 15px; }
+.serviceBox > article > div{height: 450px; }
+.serviceBox > article > div > div{width: 300px; height: 100%; border: 1px solid #e9e9e9; margin-right: 10px; }
+.serviceBox > article > div > a{width: 65px; height: 100%; background-color: #0ab4e1; line-height: 450px; text-align: center; color: #fff; font-size: 18px; font-weight: bold; margin-right: 10px; }
+.serviceBox > article > div > div > a{width: 100%; height: 100%; display: block; }
+.serviceBox > article > div > div > a > img{width: 100%; background-color: #ccc; }
+.service_info{width: 100%; height: 210px; color: #333; padding-left: 10px; }
+.service_info > div{padding-top: 10px; margin-bottom: 30px; display: table; width: 100%; }
+.service_info > p{color: #777; font-size: 16px; margin-bottom: 10px; }
+.service_info > div > h4{width: 65px; height: 65px; border-radius: 65px; border: 2px solid #e9e9e9; margin-right: 10px; overflow: hidden; display: table-cell; vertical-align: middle; background-color: #fff; }
+.service_info > div > h4 > img{width: 100%; max-height: 100%; vertical-align: middle; }
+.service_info > div > div{}
+.service_info > div > div > h5{font-size: 20px; font-weight: bold; margin-bottom: 5px;}
+.service_info > div > div > h5 > p{font-size: 15px; line-height: 1.3; }
+.service_img{}
+.addService{width: 385px; }
+.addService > li{margin-bottom: 45px;}
+.addService .imgBox{width: 120px; height: 100px; background-color: #ccc; }
+.addService .imgBox > img{max-width: 100%; max-height: 100%; }
+.addService .textBox{max-width: 235px; }
+.addService > li{background-color: #f3f4f8; }
+.addService > li > a{display: block; color: #333; padding: 10px; }
+.addService > li > a > div > img{}
+.addService > li > a > div > div{margin-bottom: 10px; }
+.addService > li > a > div > div > h4{width: 40px; height: 40px; border-radius: 40px; border: 2px solid #e9e9e9; margin-right: 5px; overflow: hidden; background-color: #fff; }
+.addService > li > a > div > div > h4 > img{width: 100%; }
+.addService > li > a > div > div > h5{font-size: 16px; font-weight: bold; line-height: 1.3; }
+.addService > li > a > div > div > h5 > span{display: block; font-weight: normal; font-size: 14px; }
+.addService > li > a > div > p{font-size: 14px; color: #777; line-height: 1.3; }
 
 .tipBox{width: 100%; }
 .tipBox > h3{font-size: 32px; text-align: center; font-weight: bold; margin-bottom: 20px; }
