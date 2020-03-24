@@ -62,7 +62,8 @@ section{width: 100%; padding: 1% 0; }
 .addService .textBox{max-width: 235px; }
 .addService > li{background-color: #f3f4f8; }
 .addService > li > a{display: block; color: #333; padding: 10px; }
-.addService > li > a > div > img{}
+.addService > li > a > div{}
+.addService > li > a > div > img{max-width: 100%; max-height: 100%; }
 .addService > li > a > div > div{margin-bottom: 10px; }
 .addService > li > a > div > div > h4{width: 40px; height: 40px; border-radius: 40px; border: 2px solid #e9e9e9; margin-right: 5px; overflow: hidden; background-color: #fff; }
 .addService > li > a > div > div > h4 > img{width: 100%; }
@@ -73,9 +74,11 @@ section{width: 100%; padding: 1% 0; }
 .tipBox{width: 100%; }
 .tipBox > h3{font-size: 32px; text-align: center; font-weight: bold; margin-bottom: 20px; }
 .tipBox > ul{width: 1080px; margin: 0 auto; }
-.tipBox > ul > li{width: 25%; height: 0; padding-bottom: 25%; position: relative; }
-.tipBox > ul > li > a{width: 95%; height: 95%; position: absolute; display: block; background-color: #333; }
+.tipBox > ul > li{width: 23%; height: 0; padding: 1%; padding-bottom: 25%; position: relative; background-repeat: no-repeat; background-position: center center; background-size: cover; margin: 1%;}
+.tipBox > ul > li > a{width: 100%; height: 100%; position: absolute; display: block; left: 0; top: 0; background-color: rgba(0, 0, 0, .3);}
 .tipBox > ul > li > a > h5{width: 100%; height: 100%; color: #fff; font-size: 36px; font-weight: bold; text-align: center; line-height: 1.5; padding-top: 70px; display: block; vertical-align: middle; align-items: center; }
+.img_03{background-image: url(/img/img_03.png); }
+.img_04{background-image: url(/img/img_04.png); }
 
 /*  footer  */
 footer{background-color: #444; width: 100%;  }
